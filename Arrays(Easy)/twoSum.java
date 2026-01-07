@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
-public class TwoSum {
-    public static int[] twoSum(int[] nums, int target) {
+public class twoSum {
+    public static int[] TwoSum(int[] nums, int target) {
         int[] res = new int[2];
         for(int i=0; i<nums.length; i++) {
             for(int j=i+1; j<nums.length; j++) {
@@ -19,7 +19,7 @@ public class TwoSum {
         int[] nums = {2, 7, 11, 15};
         int target = 9;
 
-        int[] result = twoSum(nums, target);
+        int[] result = TwoSum(nums, target);
         System.out.println("Indices: " + Arrays.toString(result));
     }
 }
