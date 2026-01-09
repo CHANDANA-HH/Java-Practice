@@ -1,26 +1,42 @@
-# LeetCode Java Solutions
+# DSA & Java Daily Learning Log 🚀
 
-This repository contains my **Java solutions to LeetCode problems**.  
-Solutions are organized by **topic** and include a short description and approach.
+This repository is a personal space where I track my **daily learning and practice in Data Structures & Algorithms using Java**.  
+It includes problem solutions, concepts I learn each day, and notes on different topics.
 
-## Topics
-- Arrays
-- Strings
-
+The goal of this repo is to:
+- Stay consistent with DSA practice  
+- Build strong problem-solving skills  
+- Maintain a record of my growth in Java  
 
 ---
 
-### Example Problem
+## 📚 Topics Covered
+- Arrays  
+- Strings  
+- (More coming soon: Linked List, Stack, Queue, Recursion, etc.)
 
-#### Problem: Two Sum
+---
+
+## 📝 How I Use This Repo
+- Add solutions to problems I solve daily  
+- Organize code by topic  
+- Update regularly with new concepts and approaches  
+- Review older problems to improve efficiency  
+
+---
+
+## 🔍 Example Entry
+
+### Problem: Two Sum  
 **Difficulty:** Easy  
-**Approach:** Used a hashmap to store numbers and their indices for quick lookup.  
+**Approach:** Used a HashMap to store elements and their indices for fast lookup.  
 **Language:** Java  
-**Link:** [LeetCode Problem](https://leetcode.com/problems/two-sum/)
+**Link:** https://leetcode.com/problems/two-sum/
 
 ---
 
-## How to Use
-- Clone this repository:  
+## 🚀 Getting Started
+Clone the repository:
 ```bash
 git clone https://github.com/yourusername/LeetCode-Java-Solutions.git
+
