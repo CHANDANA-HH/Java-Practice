@@ -1,4 +1,5 @@
-// Given an array arr[] and two elements x and y, return the element that occurs more frequently. If both elements have the same frequency, return the smaller one.
+// Given an array arr[] and two elements x and y, return the element that occurs more frequently.
+//  If both elements have the same frequency, return the smaller one.
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,35 +8,27 @@ import java.util.Scanner;
 public class Majority {
 
     public int moreFrequent(List<Integer> arr, int x, int y) {
-       
-        int xcount =0;
-        int ycount=0;
-        for(int i=0;i<arr.size();i++)
-        {
-            if(arr.get(i)==x)
-            {
+
+        int xcount = 0;
+        int ycount = 0;
+        for (int i = 0; i < arr.size(); i++) {
+            if (arr.get(i) == x) {
                 xcount++;
             }
-             if(arr.get(i)==y)
-            {
+            if (arr.get(i) == y) {
                 ycount++;
             }
-            
-        }
-        
-        if(xcount>ycount)
-        {
-            return x;
-        }
-        else if(ycount>xcount)
-        {
-            return y;
-        }
-        else  return Math.min(x,y);
-        
-      
-    }
 
+        }
+
+        if (xcount > ycount) {
+            return x;
+        } else if (ycount > xcount) {
+            return y;
+        } else
+            return Math.min(x, y);
+
+    }
 
     public static void main(String[] args) {
 
@@ -47,7 +40,7 @@ public class Majority {
         List<Integer> arr = new ArrayList<>();
 
         System.out.println("Enter array elements:");
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             arr.add(sc.nextInt());
         }
 
@@ -63,6 +56,4 @@ public class Majority {
         System.out.println("More frequent element is: " + result);
     }
 
-
-    
 }

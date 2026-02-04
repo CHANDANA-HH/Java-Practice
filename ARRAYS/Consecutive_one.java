@@ -1,4 +1,4 @@
-//To find the maximumcosecutive ones in an array
+//To find the maximum consecutive ones in an array
 
 import java.util.Scanner;
 
